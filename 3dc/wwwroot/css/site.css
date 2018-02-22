@@ -1,0 +1,18 @@
+﻿/**
+    ESTILOS PARA LAS PAGINAS PRINCIPALES.
+    **** AGREGAR CADA ESTILO DEBAJO DEL COMENTARIO (PAGINA) CORRESPONDIENTE *****
+*/
+
+/** GENERAL **/
+.spaceBetweenLittle{
+    height:12px;
+}
+.spaceBetweenMedium {
+    height: 23px;
+}
+.spaceBetweenBig {
+    height: 40px;
+}
+
+
+/* HOME/INDEX */
