@@ -3,6 +3,12 @@
     **** AGREGAR CADA ESTILO DEBAJO DEL COMENTARIO (PAGINA) CORRESPONDIENTE *****
 */
 
+/**  COLOR GUIDE  */
+/*
+    Gray: #f3f3f3
+
+*/
+
 /** GENERAL **/
 .spaceBetweenLittle{
     height:12px;
@@ -12,6 +18,16 @@
 }
 .spaceBetweenBig {
     height: 40px;
+}
+
+/* Main Menu */
+.topMenu{
+    width:100%;
+    height:auto;
+    padding:0.3em;
+    background-color:#f3f3f3;
+    color:#909090;
+    font-size:0.75rem;
 }
 
 
@@ -36,3 +52,6 @@ input[type="range"] {
 }
 
 /* HOME/INDEX */
+
+
+

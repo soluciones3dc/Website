@@ -15,10 +15,14 @@
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
     @RenderSection("Styles", required: false)
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    
 </head>
 <body>
+
     @Html.Partial("~/Views/Partials/_mainMenu.cshtml")
+    <div class="container-fluid">
+        @Html.Partial("~/Views/Partials/_slide.cshtml")
+    </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
@@ -38,7 +42,7 @@
                 integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
-        
+
     </environment>
 
     @RenderSection("Scripts", required: false)
