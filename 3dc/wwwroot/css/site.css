@@ -25,10 +25,20 @@
     width:100%;
     height:auto;
     padding:0.3em;
-    background-color:#f3f3f3;
-    color:#909090;
     font-size:0.75rem;
+    background-color:#0d2346 !important;
+    padding-top:0.4em;
+    padding-bottom:0.4em;
 }
+    .topMenu span{
+        color:#c6c6c6;
+    }
+    .topMenu b {
+        color: #868686;
+    }
+    .topMenu div {
+        padding-left:1em;
+    }
 
 
 /* SLIDESHOW */
@@ -55,3 +65,8 @@ input[type="range"] {
 
 
 
+/**FOOTER*/
+.footerBox {
+    background-color: #f3f3f3;
+    color:black;
+}
