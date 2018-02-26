@@ -26,32 +26,10 @@
             translateY: path('y'),
             rotate: path('angle'),
             easing: 'linear',
-            duration: 2000,
+            duration: 1000,
             loop: true
         });
 
         $(".titleBox").hover(function () { animation.play() }, function () { animation.pause() });
-    </script>
-    <script>
-        if (annyang) {
-            // Let's define a command.
-            var commands = {
-                'hello': function () { alert('Hello, how are you?'); }
-            };
-            var command2 = {
-                'hello *name': helloFunc
-            };
-
-            // Add our commands to annyang
-            annyang.addCommands(commands);
-            annyang.addCommands(command2);
-
-            // Start listening.
-            annyang.start();
-
-            function helloFunc(name) {
-                alert("Hello " + name + ", how are you?");
-            }
-        }
     </script>
 }
