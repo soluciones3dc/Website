@@ -8,28 +8,50 @@
 @Html.Partial("~/Views/Partials/_boletin.cshtml")
 
 @section Scripts{
-<script>
-    //Services
-    var animation = anime({
-        targets: '#boxes .box',
-        translateX: 250,
-        direction: 'alternate',
-        delay: function (el, i, l) { return i * 1000; },
-        loop: true,
-        autoplay: false
-    });
-    var path = anime.path('#pathAnim path');
+    <script>
+        //Services
+        var animation = anime({
+            targets: '#boxes .box',
+            translateX: 250,
+            direction: 'alternate',
+            delay: function (el, i, l) { return i * 1000; },
+            loop: true,
+            autoplay: false
+        });
+        var path = anime.path('#pathAnim path');
 
-    var motionPath = anime({
-        targets: '#pathAnim .el',
-        translateX: path('x'),
-        translateY: path('y'),
-        rotate: path('angle'),
-        easing: 'linear',
-        duration: 2000,
-        loop: true
-    });
+        var motionPath = anime({
+            targets: '#pathAnim .el',
+            translateX: path('x'),
+            translateY: path('y'),
+            rotate: path('angle'),
+            easing: 'linear',
+            duration: 2000,
+            loop: true
+        });
 
-    $(".titleBox").hover(function () { animation.play() }, function () { animation.pause() });
-</script>
+        $(".titleBox").hover(function () { animation.play() }, function () { animation.pause() });
+    </script>
+    <script>
+        if (annyang) {
+            // Let's define a command.
+            var commands = {
+                'hello': function () { alert('Hello, how are you?'); }
+            };
+            var command2 = {
+                'hello *name': helloFunc
+            };
+
+            // Add our commands to annyang
+            annyang.addCommands(commands);
+            annyang.addCommands(command2);
+
+            // Start listening.
+            annyang.start();
+
+            function helloFunc(name) {
+                alert("Hello " + name + ", how are you?");
+            }
+        }
+    </script>
 }
