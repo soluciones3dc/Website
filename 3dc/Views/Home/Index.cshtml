@@ -2,15 +2,34 @@
     ViewData["Title"] = "Home Page";
 }
 
-@section Styles {
 
-}
 @Html.Partial("~/Views/Partials/_servicios.cshtml")
 @Html.Partial("~/Views/Partials/_contacto.cshtml")
 @Html.Partial("~/Views/Partials/_boletin.cshtml")
 
 @section Scripts{
-    <script type="text/javascript">
+<script>
+    //Services
+    var animation = anime({
+        targets: '#boxes .box',
+        translateX: 250,
+        direction: 'alternate',
+        delay: function (el, i, l) { return i * 1000; },
+        loop: true,
+        autoplay: false
+    });
+    var path = anime.path('#pathAnim path');
 
-    </script>
+    var motionPath = anime({
+        targets: '#pathAnim .el',
+        translateX: path('x'),
+        translateY: path('y'),
+        rotate: path('angle'),
+        easing: 'linear',
+        duration: 2000,
+        loop: true
+    });
+
+    $(".titleBox").hover(function () { animation.play() }, function () { animation.pause() });
+</script>
 }

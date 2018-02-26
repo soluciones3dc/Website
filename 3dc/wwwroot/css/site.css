@@ -63,3 +63,27 @@
     .box.green{
         background-color:green;
     }
+.titleBox{
+    width:100%;
+    align-content:center;
+    margin:auto;
+    background-color:#041f57;
+    color:white;
+    padding:1.4em;
+}
+svg path {
+    fill: none;
+    stroke: #000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width:10px;
+    transition: 0.8s;
+}
+.svg-1:hover path {
+    d: path("M 125,75 C 125,145 225,145 225,75 Z");
+}
+.smallSquare {
+    width: 20px;
+    height: 20px;
+    background-color: #33031c;
+}
