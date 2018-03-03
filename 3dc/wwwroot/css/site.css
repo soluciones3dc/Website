@@ -3,7 +3,8 @@
     ESTILOS PARA LAS PAGINAS PRINCIPALES.
     **** AGREGAR CADA ESTILO DEBAJO DEL COMENTARIO (PAGINA) CORRESPONDIENTE *****
 */
-
+/* Slider */
+@import url("Styles/slide.css");
 /* Main Menu */
 @import url("Styles/mainMenu.css");
 /**FOOTER*/
@@ -15,7 +16,6 @@
 /*
 
 */
-
 
 /** GENERAL **/
 .spaceBetweenLittle{

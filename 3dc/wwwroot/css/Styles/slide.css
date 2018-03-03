@@ -1,2 +1,4 @@
-﻿body {
+﻿.carousel-inner > .item > img {
+    width: 640px !important;
+    height: 360px !important;
 }
