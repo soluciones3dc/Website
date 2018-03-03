@@ -1,0 +1,21 @@
+﻿.topMenu {
+    width: 100%;
+    height: auto;
+    padding: 0.3em;
+    font-size: 0.75rem;
+    background-color: #eaeaea !important;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+    .topMenu span {
+        color: #a7a7a7;
+    }
+
+    .topMenu b {
+        color: :#a7a7a7;
+    }
+
+    .topMenu div {
+        padding-left: 1em;
+    }

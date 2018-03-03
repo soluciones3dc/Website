@@ -1,13 +1,21 @@
-﻿/**
+﻿
+/**
     ESTILOS PARA LAS PAGINAS PRINCIPALES.
     **** AGREGAR CADA ESTILO DEBAJO DEL COMENTARIO (PAGINA) CORRESPONDIENTE *****
 */
 
+/* Main Menu */
+@import url("Styles/mainMenu.css");
+/**FOOTER*/
+@import url("Styles/footer.css");
+/**SERVICES*/
+@import url("Styles/services.css");
+
 /**  COLOR GUIDE  */
 /*
-    Gray: #f3f3f3
 
 */
+
 
 /** GENERAL **/
 .spaceBetweenLittle{
@@ -20,70 +28,4 @@
     height: 40px;
 }
 
-/* Main Menu */
-.topMenu{
-    width:100%;
-    height:auto;
-    padding:0.3em;
-    font-size:0.75rem;
-    background-color:#eaeaea !important;
-    padding-top:0.4em;
-    padding-bottom:0.4em;
-}
-    .topMenu span{
-        color:#a7a7a7;
-    }
-    .topMenu b {
-        color: :#a7a7a7;
-    }
-    .topMenu div {
-        padding-left:1em;
-    }
 
-
-
-/**FOOTER*/
-.footerBox {
-    background-color: #f3f3f3;
-    color:black;
-}
-
-/**SERVICES*/
-.box{
-    display:inline-block;
-    width:45px;
-    height:45px;
-}
-    .box.red{
-        background-color:red;
-    }
-    .box.yellow{
-        background-color:yellow;
-    }
-    .box.green{
-        background-color:green;
-    }
-.titleBox{
-    width:100%;
-    align-content:center;
-    margin:auto;
-    background-color:#041f57;
-    color:white;
-    padding:1.4em;
-}
-svg path {
-    fill: none;
-    stroke: #000;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width:10px;
-    transition: 0.8s;
-}
-.svg-1:hover path {
-    d: path("M 125,75 C 125,145 225,145 225,75 Z");
-}
-.smallSquare {
-    width: 20px;
-    height: 20px;
-    background-color: #33031c;
-}
