@@ -1,4 +1,56 @@
-﻿.carousel-inner > .item > img {
-    width: 640px !important;
-    height: 360px !important;
+﻿.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 12%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    top: 40%;
+    width: 60%;
+}
+
+@media screen and (min-width: 0px) {
+    .slideshow {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .slideshow {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .slideshow {
+        display: block;
+    }
+
+    .carousel-caption {
+        top: 25%;
+    }
+
+        .carousel-caption h5 {
+            font-size: 1.9rem;
+        }
+
+        .carousel-caption p {
+            font-size: 1.0rem;
+        }
+}
+@media screen and (min-width: 1100px) {
+    .carousel-caption {
+        top: 40%;
+    }
+
+        .carousel-caption h5 {
+            font-size: 2.9rem;
+        }
+
+        .carousel-caption p {
+            font-size: 1.5rem;
+        }
 }
