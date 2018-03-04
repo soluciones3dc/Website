@@ -1,19 +1,19 @@
 # Soluciones 3DC
 _Official website_
-##Paginas
-* Menú principal
-** Logo
-** Links: Inicio, servicios (link hacia section servicios en pagina inicio), sobre nosotros, contacto
-** Top menu
-*** Redes sociales
+## Paginas
+* MenÃº principal
+  * Logo
+  * Links: Inicio, servicios (link hacia section servicios en pagina inicio), sobre nosotros, contacto
+  * Top menu
+    * Redes sociales
 * Inicio
-** Header
-** Section Servicios (detallados)
-** Section suscríbete al boletín
-** Section Contactanos
-** Footer
-*** Redes sociales
+  * Header
+  * Section Servicios (detallados)
+  * Section suscrÃ­bete al boletÃ­n
+  * Section Contactanos
+  * Footer
+    * Redes sociales
 * Sobre nosotros
-** ¿Qué es Soluciones 3DC?
-** Misión, visión y valores
-** Nuestro equipo
+  * Â¿QuÃ© es Soluciones 3DC?
+  * MisiÃ³n, visiÃ³n y valores
+  * Nuestro equipo
