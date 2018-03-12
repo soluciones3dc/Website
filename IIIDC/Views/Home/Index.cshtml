@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@Html.Partial("~/Views/Partials/_carousel.cshtml")
+@Html.Partial("~/Views/Partials/_services.cshtml")
+@Html.Partial("~/Views/Partials/_about-us.cshtml")
+
+@section Scripts{
+    <!-- Add partial views scripts here -->
+
+    <!-- _Carousel.cshtml -->
+    <script type="text/javascript">
+        //Animate first item at loading
+        setTimeout(function () {
+            $(".item-1").addClass("fadeInDown");
+        }, 0);
+        //Animate second item at 0.3 seconds later
+        setTimeout(function () {
+            $(".item-2").addClass("fadeInLeft");
+        }, 300);
+        //Animate third item at 0.6 seconds later
+        setTimeout(function () {
+            $(".item-3").addClass("fadeInRight");
+        }, 600);
+    </script>
+}
