@@ -20,3 +20,14 @@ C:\Users\danie\Desktop\apps\IIIDC\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.AssemblyIn
 C:\Users\danie\Desktop\apps\IIIDC\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.AssemblyInfo.cs
 C:\Users\danie\Desktop\apps\IIIDC\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.dll
 C:\Users\danie\Desktop\apps\IIIDC\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.pdb
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\bin\Debug\netcoreapp2.0\IIIDC.deps.json
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\bin\Debug\netcoreapp2.0\IIIDC.runtimeconfig.json
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\bin\Debug\netcoreapp2.0\IIIDC.runtimeconfig.dev.json
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\bin\Debug\netcoreapp2.0\IIIDC.dll
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\bin\Debug\netcoreapp2.0\IIIDC.pdb
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.AssemblyInfoInputs.cache
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.AssemblyInfo.cs
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.dll
+C:\Users\Carlos Kibel\Desktop\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.pdb
