@@ -1,0 +1,62 @@
+﻿@model ContactViewModel
+
+
+<div class="container">
+    <div class="col-12" style="margin-top:20px">
+        <div class="card-body bg-light">
+            <div class="col-8 animated fadeInLeft">
+                <form method="post" asp-controller="Home" asp-action="Contact">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <div class="alert alert-heading alert-danger" asp-validation-summary="ModelOnly"></div>
+                            @if (ViewBag.UserMessage != null)
+                            {
+                                <div class="alert alert-success">
+                                    <p>@ViewBag.UserMessage</p>
+                                </div>
+                            }
+                            <input asp-for="Name" type="text" class="form-control" id="name" placeholder="Name"
+                                   onfocus="this.placeholder=''" onblur="this.placeholder='name'" />
+                            <span asp-validation-for="Name"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input asp-for="Subject" type="text" class="form-control" id="subject"
+                                   placeholder="Subject" onfocus="this.placeholder=''" onblur="this.placeholder='Subject'" />
+                            <span asp-validation-for="Subject"></span>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input asp-for="Email" type="text" class="form-control" id="email" placeholder="example@gmail.com"
+                                   onfocus="this.placeholder=''" onblur="this.placeholder='example@gmail.com'" />
+                            <span asp-validation-for="Email"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input asp-for="Telephone" type="text" class="form-control" id="telephone" placeholder="555-555-5555"
+                                   onfocus="this.placeholder=''" onblur="this.placeholder='555-555-5555'" />
+                            <span asp-validation-for="Telephone"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <textarea asp-for="Content" type="text" class="form-control" id="content"
+                                      placeholder="Write your message here" onfocus="this.placeholder =''"
+                                      onblur="this.placeholder='Write your message here'"></textarea>
+                            <span asp-validation-for="Content"></span>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <button class="btn btn-success" type="submit">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

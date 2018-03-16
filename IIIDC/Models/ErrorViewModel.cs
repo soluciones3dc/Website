@@ -1,6 +1,6 @@
 using System;
 
-namespace FirstWebApp.Models
+namespace IIIDC.Models
 {
     public class ErrorViewModel
     {
