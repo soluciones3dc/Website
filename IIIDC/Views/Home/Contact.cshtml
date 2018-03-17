@@ -1,10 +1,21 @@
 ﻿@model ContactViewModel
 
 
+@section scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
 <div class="container">
-    <div class="col-12" style="margin-top:20px">
-        <div class="card-body bg-light">
-            <div class="col-8 animated fadeInLeft">
+    <div class="col-12">
+        <div class="jumbotron" style="margin-top:10px">
+            <h1 class="display-4">CONTACT US!</h1>
+            <small class="lead">Feel free to send us a message, we are going to contact you back</small>
+        </div>
+    </div>
+    <div class="col-8" style="margin-top:20px">
+        <div class="card bg-light">
+            <div class="col-12 animated fadeInLeft" style="margin-top:15px">
                 <form method="post" asp-controller="Home" asp-action="Contact">
                     <div class="col-12">
                         <div class="form-group">
@@ -16,15 +27,15 @@
                                 </div>
                             }
                             <input asp-for="Name" type="text" class="form-control" id="name" placeholder="Name"
-                                   onfocus="this.placeholder=''" onblur="this.placeholder='name'" />
-                            <span asp-validation-for="Name"></span>
+                                   onfocus="this.placeholder=''" onblur="this.placeholder='Name'" />
+                            <span class="text-danger" asp-validation-for="Name"></span>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
                             <input asp-for="Subject" type="text" class="form-control" id="subject"
                                    placeholder="Subject" onfocus="this.placeholder=''" onblur="this.placeholder='Subject'" />
-                            <span asp-validation-for="Subject"></span>
+                            <span class="text-danger" asp-validation-for="Subject"></span>
                         </div>
                     </div>
 
@@ -32,14 +43,14 @@
                         <div class="form-group">
                             <input asp-for="Email" type="text" class="form-control" id="email" placeholder="example@gmail.com"
                                    onfocus="this.placeholder=''" onblur="this.placeholder='example@gmail.com'" />
-                            <span asp-validation-for="Email"></span>
+                            <span class="text-danger" asp-validation-for="Email"></span>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
                             <input asp-for="Telephone" type="text" class="form-control" id="telephone" placeholder="555-555-5555"
                                    onfocus="this.placeholder=''" onblur="this.placeholder='555-555-5555'" />
-                            <span asp-validation-for="Telephone"></span>
+                            <span class="text-danger" asp-validation-for="Telephone"></span>
                         </div>
                     </div>
                     <div class="col-12">
@@ -47,12 +58,12 @@
                             <textarea asp-for="Content" type="text" class="form-control" id="content"
                                       placeholder="Write your message here" onfocus="this.placeholder =''"
                                       onblur="this.placeholder='Write your message here'"></textarea>
-                            <span asp-validation-for="Content"></span>
+                            <span class="text-danger" asp-validation-for="Content"></span>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
-                            <button class="btn btn-success" type="submit">SUBMIT</button>
+                            <button id="submit" class="btn" type="submit">SEND</button>
                         </div>
                     </div>
                 </form>

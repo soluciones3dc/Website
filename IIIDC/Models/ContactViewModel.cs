@@ -8,7 +8,7 @@ namespace IIIDC.Models
 {
     public class ContactViewModel
     {
-        [StringLength(20,ErrorMessage ="The name is too long")]
+        [StringLength(maximumLength: = 20, ErrorMessage ="The name is too short")]
         [Required]
         public string Name { get; set; }
 

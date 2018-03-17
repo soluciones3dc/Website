@@ -7,6 +7,13 @@
 //Variables
 @import "variables";
 //Other imports
+h1, h2 {
+    font-family: $title_font;
+}
+body{
+    font-family: $content_font;
+}
+
 @import "Partials/_main-menu.scss";
 @import "Partials/_carousel.scss";
 @import "Partials/_services.scss";

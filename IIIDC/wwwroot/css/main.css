@@ -8,6 +8,23 @@
     All variables needed for main styles.
     Note: Try always to use this variables when adding styles.
 */
+h1, h2 {
+  font-family: "'Bree Serif', serif"; }
+
+body {
+  font-family: "'Open Sans', sans-serif"; }
+
+section {
+  margin-top: 60px; }
+
+.MainMenu {
+  background-color: #ffffff; }
+
+.navbar a:hover {
+  background: #A4B3BF;
+  color: black;
+  font-weight: 600; }
+
 #iiidc-carousel-items {
   display: block; }
 
@@ -53,3 +70,32 @@
     display: block; }
   #iiidc-carousel-items {
     display: none; } }
+
+#submit {
+  background-color: #3F5573;
+  color: white; }
+
+#secondColumn {
+  background-color: #3F5573;
+  color: #ffffff;
+  height: 250px;
+  height: 250px;
+  justify-content: center;
+  align-items: center; }
+
+.vertical-line {
+  border-left: 0.01em solid gray;
+  height: 170px; }
+
+#socialmedias a img {
+  background-color: white; }
+
+#firstColumn, #thirdColumn {
+  background-color: #284259;
+  color: #ffffff;
+  height: 250px;
+  justify-content: center;
+  align-items: center; }
+
+#child {
+  margin-top: 50px; }

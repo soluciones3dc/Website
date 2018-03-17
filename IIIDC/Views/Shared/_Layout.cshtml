@@ -6,16 +6,18 @@
     <title>@ViewData["Title"] | Template</title>
 
     <link rel="stylesheet" href="~/css/bootstrap.css" />
-    <link rel="stylesheet" href="~/css/main.min.css" />
+    @*<link rel="stylesheet" href="~/css/main.min.css" />*@
+    <link href="~/css/main.css" rel="stylesheet" />
     <script src="~/lib/fontawesome/fontawesome-all.min.js"></script>
     <link rel="stylesheet" href="~/css/animate.min.css" />
 
 </head>
 <body>
     @Html.Partial("~/Views/Partials/_main-menu.cshtml")
-    @RenderBody()
-    @Html.Partial("~/Views/Partials/_footer.cshtml")
-
+    <section>
+        @RenderBody()
+        @Html.Partial("~/Views/Partials/_footer.cshtml")
+    </section>
     <script src="~/lib/jquery/jquery.min.js"></script>
     <script src="~/lib/bootstrap/bootstrap.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

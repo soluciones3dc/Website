@@ -1,1 +1,26 @@
-﻿
+﻿#secondColumn {
+    background-color: $dark_blue;
+    color: #ffffff;
+    height: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-line{
+    border-left:0.01em solid gray;
+    height:170px;
+}
+#socialmedias a img{
+   background-color:white;
+
+}
+#firstColumn, #thirdColumn {
+    background-color: $dark_blue_strong;
+    color: #ffffff;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+#child {
+    margin-top:50px;
+}

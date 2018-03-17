@@ -1,1 +1,11 @@
-﻿
+﻿section {
+    margin-top: 60px;
+}
+.MainMenu{
+    background-color:#ffffff;
+}
+.navbar a:hover {
+    background: $light_blue;
+    color: black;
+    font-weight:600;
+}

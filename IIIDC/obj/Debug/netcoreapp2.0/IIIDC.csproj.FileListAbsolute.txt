@@ -36,7 +36,6 @@ C:\Users\Dionis\soluciones3dc\Website\IIIDC\bin\Debug\netcoreapp2.0\IIIDC.runtim
 C:\Users\Dionis\soluciones3dc\Website\IIIDC\bin\Debug\netcoreapp2.0\IIIDC.runtimeconfig.dev.json
 C:\Users\Dionis\soluciones3dc\Website\IIIDC\bin\Debug\netcoreapp2.0\IIIDC.dll
 C:\Users\Dionis\soluciones3dc\Website\IIIDC\bin\Debug\netcoreapp2.0\IIIDC.pdb
-C:\Users\Dionis\soluciones3dc\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.csprojResolveAssemblyReference.cache
 C:\Users\Dionis\soluciones3dc\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.csproj.CoreCompileInputs.cache
 C:\Users\Dionis\soluciones3dc\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.AssemblyInfoInputs.cache
 C:\Users\Dionis\soluciones3dc\Website\IIIDC\obj\Debug\netcoreapp2.0\IIIDC.AssemblyInfo.cs
