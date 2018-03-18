@@ -12565,24 +12565,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dionis\\.nuget\\packages\\": {},
+    "C:\\Users\\danie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dionis\\soluciones3dc\\Website\\IIIDC\\IIIDC.csproj",
+      "projectUniqueName": "C:\\Users\\danie\\Desktop\\apps\\IIIDC\\IIIDC\\IIIDC.csproj",
       "projectName": "IIIDC",
-      "projectPath": "C:\\Users\\Dionis\\soluciones3dc\\Website\\IIIDC\\IIIDC.csproj",
-      "packagesPath": "C:\\Users\\Dionis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dionis\\soluciones3dc\\Website\\IIIDC\\obj\\",
+      "projectPath": "C:\\Users\\danie\\Desktop\\apps\\IIIDC\\IIIDC\\IIIDC.csproj",
+      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danie\\Desktop\\apps\\IIIDC\\IIIDC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dionis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
